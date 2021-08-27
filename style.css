@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+}
+body{
+    
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #d3d3d3 35%,  #2d3436 35%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+height: auto;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.selectCountry{
+height: 30px;
+width: 300px;
+margin: 20px;
+text-align: center;
+}
+.select{
+padding: 10px 20px;
+width: 200px;
+border-radius: 5px;
+cursor: pointer;
+color: black !important;
+}
+
+
+.countryInformation{
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    text-align: justify;
+    margin-top: 10px;
+    background-color: #fff;
+    color: black !important;
+    /* display: none; */
+}
+
+.CountryFlag{
+    height: 250px;
+    width: 100%;
+}
+
+.CountryFlag > img{
+height: 100%;
+width: 100%;
+/* border-radius: 5px; */
+}
+
+
+.countrytitle,.population,.timezone,.capital{
+    padding: 10px;
+    text-align: justify;
+    font-size: 17x;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+
+.footer{
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: 17x;
+letter-spacing: 2px;
+color: #fff;
+line-height: 20px;
+background-color: black;
+margin-top: 10px;
+}
+.footer a{
+    color: #fff;
+}
+
+.containerh3{
+    margin: 10p 0px;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.containersmall{
+    padding: 2px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.headertext{
+    margin: 15px 0px;
+}
+#opt{
+    color: black !important;
+}
